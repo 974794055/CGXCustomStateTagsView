@@ -1,0 +1,16 @@
+PODS:
+  - CGXCustomStateTagsView (1.1.1)
+
+DEPENDENCIES:
+  - CGXCustomStateTagsView (from `../`)
+
+EXTERNAL SOURCES:
+  CGXCustomStateTagsView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CGXCustomStateTagsView: b5f2777370bb156898b73ea0e844b541159a09d8
+
+PODFILE CHECKSUM: 88746040630b1f99802d8ca13c420a4134090670
+
+COCOAPODS: 1.10.1

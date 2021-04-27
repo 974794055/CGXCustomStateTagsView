@@ -30,6 +30,11 @@
     }
     return self;
 }
+- (void)layoutSubviews
+{
+    [super layoutSubviews];
+    self.tagsView.frame = CGRectMake(0,0, CGRectGetWidth(self.contentView.frame), CGRectGetHeight(self.contentView.frame));
+}
 - (void)updateModel
 {
     NSMutableArray *tagsArr= [NSMutableArray arrayWithObjects:@"取消订单",@"待支付",@"评价", nil];
@@ -42,7 +47,7 @@
         tagModel.stateType = TagsModelTypeTitle;
         //        tagModel.tagsBgColor = APPRandomColor;
         tagModel.tagsBorderColor = APPRandomColor;
-        tagModel.tagsBorderWidth = 2;
+        tagModel.tagsBorderWidth = 1;
         tagModel.tagsCornerRadius = 8;
         tagModel.tagsIncrement = 20;
         [tags11 addObject:tagModel];

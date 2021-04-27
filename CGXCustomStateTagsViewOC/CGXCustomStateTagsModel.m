@@ -18,20 +18,10 @@
         self.tagsWidth = 60;
         self.stateType = TagsModelTypeTitle;
         self.tagsCornerRadius = 4;
-        
         self.tagsBorderColor = [UIColor colorWithRed:204.0/255.0 green:204.0/255.0 blue:204.0/255.0 alpha:1.0];
         self.tagsBorderWidth = 1;
-        self.tagsSelectBorderColor = [UIColor colorWithRed:204.0/255.0 green:204.0/255.0 blue:204.0/255.0 alpha:1.0];
-        
-        self.tagsIsSelect = NO;
         self.tagsColor = [UIColor blackColor];
         self.tagsFont = [UIFont systemFontOfSize:14];
-        self.tagsSelectColor = [UIColor blackColor];
-        self.tagsSelectFont = [UIFont systemFontOfSize:14];
-        
-        self.tagsHaveBorder = YES;
-
-
         self.tagsImgSize =  CGSizeMake(25, 25);
         self.tagsSpace = 5;
         self.tagsIncrement = 10;

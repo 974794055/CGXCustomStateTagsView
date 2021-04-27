@@ -36,29 +36,18 @@ typedef NS_ENUM(NSInteger, CGXCustomStateTagsModelBtnType){
 @property (nonatomic , assign) CGSize tagsImgSize;//图片大小
 
 @property (nonatomic , assign) CGFloat tagsSpace;//图文间距。两边延伸距离  默认5
-
 @property (nonatomic , assign) CGFloat tagsIncrement;//cell宽度补偿。默认：10
-
 @property (nonatomic , assign) CGFloat tagsMarginTop;//图文上间距。图文有用 默认10 图文两边之和
 @property (nonatomic , assign) CGFloat tagsMarginBottom;//图文下间距。图文有用 默认10 图文两边之和
-
-@property (nonatomic , assign) BOOL tagsIsSelect;//是否选中
-@property (nonatomic , assign) BOOL isClick;// 是否可以点击 默认可以
 
 @property (nonatomic , strong) NSString *tagsStr;//标签文字
 @property (nonatomic , strong) UIFont *tagsFont;//默认字体
 @property (nonatomic , strong) UIColor *tagsColor;//默认颜色
-@property (nonatomic , strong) UIFont *tagsSelectFont;//选中字体
-@property (nonatomic , strong) UIColor *tagsSelectColor;//选中颜色
 
-@property (nonatomic , assign) BOOL tagsHaveBorder;//是否有边框
 
 @property (nonatomic , strong) UIColor *tagsBorderColor;//边框颜色
-@property (nonatomic , strong) UIColor *tagsSelectBorderColor;//边框选中颜色
-
 @property (nonatomic , assign) CGFloat tagsBorderWidth;//边框宽度
 @property (nonatomic , assign) CGFloat tagsCornerRadius;//圆角
-
 
 //自适应宽度 默认YES
 @property (nonatomic , assign) BOOL isAdaptiveWidth;

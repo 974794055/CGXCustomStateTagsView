@@ -8,11 +8,14 @@
 
 #import "CGXCustomStateTagsCell.h"
 #import "UIButton+CGXCustomStateTagsEdgeInsets.h"
-#import "UIView+CGXCustomStateTagsRounded.h"
+
 @interface  CGXCustomStateTagsCell()
 
 @property (nonatomic , strong) CGXCustomStateTagsModel *model;
-
+@property (nonatomic , strong) NSLayoutConstraint *hotImageTop;
+@property (nonatomic , strong) NSLayoutConstraint *hotImageLeft;
+@property (nonatomic , strong) NSLayoutConstraint *hotImageRight;
+@property (nonatomic , strong) NSLayoutConstraint *hotImageBottom;
 
 @end
 @implementation  CGXCustomStateTagsCell
@@ -24,28 +27,41 @@
         self.tagsButton.titleLabel.textAlignment=NSTextAlignmentCenter;
         [self.contentView addSubview:self.tagsButton];
         self.tagsButton.layer.masksToBounds=YES;
+        self.tagsButton.clipsToBounds=YES;
         self.tagsButton.userInteractionEnabled = NO;
         [self.tagsButton setAdjustsImageWhenHighlighted:NO];
-        [self updateFrame];
+   
+    self.tagsButton.translatesAutoresizingMaskIntoConstraints = NO;
+        
+        self.hotImageTop = [NSLayoutConstraint constraintWithItem:self.tagsButton attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.contentView attribute:NSLayoutAttributeTop multiplier:1.0 constant:0];
+        self.hotImageLeft = [NSLayoutConstraint constraintWithItem:self.tagsButton attribute:NSLayoutAttributeLeft relatedBy:NSLayoutRelationEqual toItem:self.contentView attribute:NSLayoutAttributeLeft multiplier:1.0 constant:0];
+        self.hotImageRight = [NSLayoutConstraint constraintWithItem:self.tagsButton attribute:NSLayoutAttributeRight relatedBy:NSLayoutRelationEqual toItem:self.contentView attribute:NSLayoutAttributeRight multiplier:1.0 constant:0];
+        self.hotImageBottom = [NSLayoutConstraint constraintWithItem:self.tagsButton attribute:NSLayoutAttributeBottom relatedBy:NSLayoutRelationEqual toItem:self.contentView attribute:NSLayoutAttributeBottom multiplier:1.0 constant:0];
+        [self.contentView addConstraint:self.hotImageTop];
+        [self.contentView addConstraint:self.hotImageLeft];
+        [self.contentView addConstraint:self.hotImageRight];
+        [self.contentView addConstraint:self.hotImageBottom];
+
+        
     }
     return self;
 }
 - (void)layoutSubviews
 {
     [super layoutSubviews];
-    [self updateFrame];
-}
-- (void)updateFrame
-{
-    self.tagsButton.translatesAutoresizingMaskIntoConstraints = NO;
-    [NSLayoutConstraint constraintWithItem:self.tagsButton attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self.contentView attribute:NSLayoutAttributeTop multiplier:1 constant:0].active = YES;
-    [NSLayoutConstraint constraintWithItem:self.tagsButton attribute:NSLayoutAttributeBottom relatedBy:NSLayoutRelationEqual toItem:self.contentView attribute:NSLayoutAttributeBottom multiplier:1 constant:0].active = YES;
-    [NSLayoutConstraint constraintWithItem:self.tagsButton attribute:NSLayoutAttributeLeft relatedBy:NSLayoutRelationEqual toItem:self.contentView attribute:NSLayoutAttributeLeft multiplier:1 constant:0].active = YES;
-    [NSLayoutConstraint constraintWithItem:self.tagsButton attribute:NSLayoutAttributeRight relatedBy:NSLayoutRelationEqual toItem:self.contentView attribute:NSLayoutAttributeRight multiplier:1 constant:0].active = YES;
+    self.hotImageTop.constant = 0;
+    self.hotImageBottom.constant = 0;
+    self.hotImageLeft.constant = 0;
+    self.hotImageRight.constant = 0;
 }
 - (void)updateWithModel:( CGXCustomStateTagsModel *)model
 {
     self.model = model;
+    self.hotImageTop.constant = 0;
+    self.hotImageBottom.constant = 0;
+    self.hotImageLeft.constant = 0;
+    self.hotImageRight.constant = 0;
+    
     [self.tagsButton setTitle:@"" forState:UIControlStateNormal];
     [self.tagsButton setImage:[UIImage new] forState:UIControlStateNormal];
     switch (model.stateType) {
@@ -58,7 +74,6 @@
             break;
         case TagsModelTypeImage:
         {
-            
             [self.tagsButton setImage:[UIImage imageNamed:model.tagsImg] forState:UIControlStateNormal];
         }
             break;
@@ -86,43 +101,12 @@
         default:
             break;
     }
-    [self updateFrame];
-    [self.tagsButton cornerRadiusCustomStateTags:CGSizeMake(model.tagsCornerRadius, model.tagsCornerRadius) cornerColor:[[UIColor whiteColor] colorWithAlphaComponent:0] corners:UIRectCornerAllCorners borderColor:model.tagsBorderColor borderWidth:model.tagsBorderWidth];
-    
+    self.tagsButton.layer.cornerRadius= model.tagsCornerRadius;
+    self.tagsButton.layer.borderWidth = model.tagsBorderWidth;
+    self.tagsButton.layer.borderColor= [model.tagsBorderColor CGColor];
 }
 
-///**
-// *  生成图片
-// *
-// *  @param color  图片颜色
-// *
-// *  @return 生成的图片
-// */
-//- (UIImage*)imageWithColor:(UIColor*)color
-//{
-//    return [self imageWithColor:color andHeight:1.0f];
-//}
-///**
-// *  生成图片
-// *
-// *  @param color  图片颜色
-// *  @param height 图片高度
-// *
-// *  @return 生成的图片
-// */
-//- (UIImage*)imageWithColor:(UIColor*)color andHeight:(CGFloat)height
-//{
-//    CGRect r= CGRectMake(0.0f, 0.0f, 1.0f, height);
-//    UIGraphicsBeginImageContext(r.size);
-//    CGContextRef context = UIGraphicsGetCurrentContext();
-//
-//    CGContextSetFillColorWithColor(context, [color CGColor]);
-//    CGContextFillRect(context, r);
-//
-//    UIImage *img = UIGraphicsGetImageFromCurrentImageContext();
-//    UIGraphicsEndImageContext();
-//
-//    return img;
-//}
+
+
 
 @end

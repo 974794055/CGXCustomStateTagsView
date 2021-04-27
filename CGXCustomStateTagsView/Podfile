@@ -1,0 +1,5 @@
+platform:ios,'8.0'
+target "CGXCustomStateTagsView" do
+
+  pod 'CGXCustomStateTagsView', :path => '../'
+end

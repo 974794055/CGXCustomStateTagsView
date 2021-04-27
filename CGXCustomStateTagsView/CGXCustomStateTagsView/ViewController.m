@@ -73,7 +73,7 @@
         tagModel.tagsImg = @"guanqi";
         tagModel.isAdaptiveWidth = YES;
         tagModel.stateType = TagsModelTypeAll;
-        tagModel.tagsBorderWidth = 2;
+        tagModel.tagsBorderWidth = 1;
         tagModel.tagsCornerRadius = 8;
         if (i == 0) {
             tagModel.btnType = TagsModelBtnTypeTop;
@@ -121,8 +121,8 @@
         //        tagModel.tagsBgColor = APPRandomColor;
         tagModel.tagsBorderColor = APPRandomColor;
         tagModel.tagsBorderWidth = 1;
-        tagModel.tagsCornerRadius = 25;
-        tagModel.tagsIncrement = 20;
+        tagModel.tagsCornerRadius = 15;
+        tagModel.tagsIncrement = 30;
         [tags11 addObject:tagModel];
     }
     [tagsView2 updateWithTagsArray:tags11];
@@ -171,7 +171,7 @@
 }
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 70;
+    return 60;
 }
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
 {

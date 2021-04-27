@@ -7,7 +7,7 @@
 //
 /*
 支持pod下载：搜索：CGXCustomStateTagsView
-版本： 1.1.1
+版本： 1.1.2
  
  
  功能：

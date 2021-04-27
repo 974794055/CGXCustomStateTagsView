@@ -76,17 +76,12 @@
     if (@available(iOS 11.0, *)) {
         self.collectionView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
     }
+    self.collectionView.translatesAutoresizingMaskIntoConstraints = NO;
     [self.collectionView reloadData];
 }
 - (void)layoutSubviews
 {
     [super layoutSubviews];
-    [self updateFrame];
-    [self.collectionView reloadData];
-}
-- (void)updateFrame
-{
-    self.collectionView.translatesAutoresizingMaskIntoConstraints = NO;
     NSLayoutConstraint *yellowViewTop = [NSLayoutConstraint constraintWithItem:self.collectionView attribute:NSLayoutAttributeTop relatedBy:NSLayoutRelationEqual toItem:self attribute:NSLayoutAttributeTop multiplier:1 constant:0];
     [self addConstraint:yellowViewTop];
     
@@ -98,7 +93,9 @@
     
     NSLayoutConstraint *yellowViewBottom = [NSLayoutConstraint constraintWithItem:self.collectionView attribute:NSLayoutAttributeBottom relatedBy:NSLayoutRelationEqual toItem:self attribute:NSLayoutAttributeBottom multiplier:1 constant:0];
     [self addConstraint:yellowViewBottom];
+    [self.collectionView reloadData];
 }
+
 - (void)setCellType:( CGXCustomStateTagsViewAlignType)cellType
 {
     _cellType = cellType;

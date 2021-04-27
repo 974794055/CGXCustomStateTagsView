@@ -14,12 +14,10 @@
 		04E71ACA2254C4C800563689 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E71AC82254C4C800563689 /* LaunchScreen.storyboard */; };
 		04E71ACD2254C4C800563689 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E71ACC2254C4C800563689 /* main.m */; };
 		9E91DCE2239FE0AA00516A27 /* ViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E91DCE1239FE0AA00516A27 /* ViewTableViewCell.m */; };
-		9E91DCF9239FF11C00516A27 /* UIView+CGXCustomStateTagsRounded.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E91DCEE239FF11C00516A27 /* UIView+CGXCustomStateTagsRounded.m */; };
-		9E91DCFA239FF11C00516A27 /* CGXCustomStateTagsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E91DCEF239FF11C00516A27 /* CGXCustomStateTagsModel.m */; };
-		9E91DCFB239FF11C00516A27 /* UIButton+CGXCustomStateTagsEdgeInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E91DCF1239FF11C00516A27 /* UIButton+CGXCustomStateTagsEdgeInsets.m */; };
-		9E91DCFC239FF11C00516A27 /* CGXCustomStateTagsAlignFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E91DCF3239FF11C00516A27 /* CGXCustomStateTagsAlignFlowLayout.m */; };
-		9E91DCFD239FF11C00516A27 /* CGXCustomStateTagsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E91DCF5239FF11C00516A27 /* CGXCustomStateTagsView.m */; };
-		9E91DCFE239FF11C00516A27 /* CGXCustomStateTagsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E91DCF7239FF11C00516A27 /* CGXCustomStateTagsCell.m */; };
+		B5960ABC263835B8003F81BA /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B5960AB9263835B8003F81BA /* LICENSE */; };
+		B5960ABD263835B8003F81BA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B5960ABA263835B8003F81BA /* README.md */; };
+		B5960ABE263835B8003F81BA /* CGXCustomStateTagsView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B5960ABB263835B8003F81BA /* CGXCustomStateTagsView.podspec */; };
+		F3B8BD77A21A1BD2E144DC90 /* libPods-CGXCustomStateTagsView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED8E81022E6A76389C99C933 /* libPods-CGXCustomStateTagsView.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,20 +31,14 @@
 		04E71AC92254C4C800563689 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04E71ACB2254C4C800563689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04E71ACC2254C4C800563689 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0ED1C7930301CFA79C297769 /* Pods-CGXCustomStateTagsView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGXCustomStateTagsView.release.xcconfig"; path = "Target Support Files/Pods-CGXCustomStateTagsView/Pods-CGXCustomStateTagsView.release.xcconfig"; sourceTree = "<group>"; };
+		64C478CB3AF197E6274641FF /* Pods-CGXCustomStateTagsView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGXCustomStateTagsView.debug.xcconfig"; path = "Target Support Files/Pods-CGXCustomStateTagsView/Pods-CGXCustomStateTagsView.debug.xcconfig"; sourceTree = "<group>"; };
 		9E91DCE0239FE0AA00516A27 /* ViewTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewTableViewCell.h; sourceTree = "<group>"; };
 		9E91DCE1239FE0AA00516A27 /* ViewTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewTableViewCell.m; sourceTree = "<group>"; };
-		9E91DCED239FF11C00516A27 /* CGXCustomStateTagsAlignFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXCustomStateTagsAlignFlowLayout.h; sourceTree = "<group>"; };
-		9E91DCEE239FF11C00516A27 /* UIView+CGXCustomStateTagsRounded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CGXCustomStateTagsRounded.m"; sourceTree = "<group>"; };
-		9E91DCEF239FF11C00516A27 /* CGXCustomStateTagsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXCustomStateTagsModel.m; sourceTree = "<group>"; };
-		9E91DCF0239FF11C00516A27 /* CGXCustomStateTagsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXCustomStateTagsView.h; sourceTree = "<group>"; };
-		9E91DCF1239FF11C00516A27 /* UIButton+CGXCustomStateTagsEdgeInsets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CGXCustomStateTagsEdgeInsets.m"; sourceTree = "<group>"; };
-		9E91DCF2239FF11C00516A27 /* CGXCustomStateTagsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXCustomStateTagsCell.h; sourceTree = "<group>"; };
-		9E91DCF3239FF11C00516A27 /* CGXCustomStateTagsAlignFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXCustomStateTagsAlignFlowLayout.m; sourceTree = "<group>"; };
-		9E91DCF4239FF11C00516A27 /* UIView+CGXCustomStateTagsRounded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CGXCustomStateTagsRounded.h"; sourceTree = "<group>"; };
-		9E91DCF5239FF11C00516A27 /* CGXCustomStateTagsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXCustomStateTagsView.m; sourceTree = "<group>"; };
-		9E91DCF6239FF11C00516A27 /* CGXCustomStateTagsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXCustomStateTagsModel.h; sourceTree = "<group>"; };
-		9E91DCF7239FF11C00516A27 /* CGXCustomStateTagsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXCustomStateTagsCell.m; sourceTree = "<group>"; };
-		9E91DCF8239FF11C00516A27 /* UIButton+CGXCustomStateTagsEdgeInsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CGXCustomStateTagsEdgeInsets.h"; sourceTree = "<group>"; };
+		B5960AB9263835B8003F81BA /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../../../LICENSE; sourceTree = "<group>"; };
+		B5960ABA263835B8003F81BA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../../README.md; sourceTree = "<group>"; };
+		B5960ABB263835B8003F81BA /* CGXCustomStateTagsView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CGXCustomStateTagsView.podspec; path = ../../../CGXCustomStateTagsView.podspec; sourceTree = "<group>"; };
+		ED8E81022E6A76389C99C933 /* libPods-CGXCustomStateTagsView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CGXCustomStateTagsView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3B8BD77A21A1BD2E144DC90 /* libPods-CGXCustomStateTagsView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +58,8 @@
 			children = (
 				04E71ABC2254C4C600563689 /* CGXCustomStateTagsView */,
 				04E71ABB2254C4C600563689 /* Products */,
+				36580068ED0D9EF9A61E43F9 /* Pods */,
+				45380242725A226B0BDB31C9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,13 +74,13 @@
 		04E71ABC2254C4C600563689 /* CGXCustomStateTagsView */ = {
 			isa = PBXGroup;
 			children = (
+				B5960AB8263835AC003F81BA /* Podspec Metadata */,
 				04E71ABD2254C4C600563689 /* AppDelegate.h */,
 				04E71ABE2254C4C600563689 /* AppDelegate.m */,
 				04E71AC02254C4C600563689 /* ViewController.h */,
 				04E71AC12254C4C600563689 /* ViewController.m */,
 				9E91DCE0239FE0AA00516A27 /* ViewTableViewCell.h */,
 				9E91DCE1239FE0AA00516A27 /* ViewTableViewCell.m */,
-				9E91DCEC239FF11C00516A27 /* CGXCustomStateTagsViewOC */,
 				04E71AC32254C4C600563689 /* Main.storyboard */,
 				04E71AC62254C4C800563689 /* Assets.xcassets */,
 				04E71AC82254C4C800563689 /* LaunchScreen.storyboard */,
@@ -95,24 +90,31 @@
 			path = CGXCustomStateTagsView;
 			sourceTree = "<group>";
 		};
-		9E91DCEC239FF11C00516A27 /* CGXCustomStateTagsViewOC */ = {
+		36580068ED0D9EF9A61E43F9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9E91DCF0239FF11C00516A27 /* CGXCustomStateTagsView.h */,
-				9E91DCF5239FF11C00516A27 /* CGXCustomStateTagsView.m */,
-				9E91DCF6239FF11C00516A27 /* CGXCustomStateTagsModel.h */,
-				9E91DCEF239FF11C00516A27 /* CGXCustomStateTagsModel.m */,
-				9E91DCF2239FF11C00516A27 /* CGXCustomStateTagsCell.h */,
-				9E91DCF7239FF11C00516A27 /* CGXCustomStateTagsCell.m */,
-				9E91DCF4239FF11C00516A27 /* UIView+CGXCustomStateTagsRounded.h */,
-				9E91DCEE239FF11C00516A27 /* UIView+CGXCustomStateTagsRounded.m */,
-				9E91DCED239FF11C00516A27 /* CGXCustomStateTagsAlignFlowLayout.h */,
-				9E91DCF3239FF11C00516A27 /* CGXCustomStateTagsAlignFlowLayout.m */,
-				9E91DCF8239FF11C00516A27 /* UIButton+CGXCustomStateTagsEdgeInsets.h */,
-				9E91DCF1239FF11C00516A27 /* UIButton+CGXCustomStateTagsEdgeInsets.m */,
+				64C478CB3AF197E6274641FF /* Pods-CGXCustomStateTagsView.debug.xcconfig */,
+				0ED1C7930301CFA79C297769 /* Pods-CGXCustomStateTagsView.release.xcconfig */,
 			);
-			name = CGXCustomStateTagsViewOC;
-			path = ../../CGXCustomStateTagsViewOC;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		45380242725A226B0BDB31C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED8E81022E6A76389C99C933 /* libPods-CGXCustomStateTagsView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5960AB8263835AC003F81BA /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				B5960ABB263835B8003F81BA /* CGXCustomStateTagsView.podspec */,
+				B5960AB9263835B8003F81BA /* LICENSE */,
+				B5960ABA263835B8003F81BA /* README.md */,
+			);
+			path = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +124,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04E71AD02254C4C800563689 /* Build configuration list for PBXNativeTarget "CGXCustomStateTagsView" */;
 			buildPhases = (
+				A54DFD99A0CE5E0D4130FD3A /* [CP] Check Pods Manifest.lock */,
 				04E71AB62254C4C600563689 /* Sources */,
 				04E71AB72254C4C600563689 /* Frameworks */,
 				04E71AB82254C4C600563689 /* Resources */,
@@ -174,26 +177,48 @@
 			files = (
 				04E71ACA2254C4C800563689 /* LaunchScreen.storyboard in Resources */,
 				04E71AC72254C4C800563689 /* Assets.xcassets in Resources */,
+				B5960ABD263835B8003F81BA /* README.md in Resources */,
+				B5960ABC263835B8003F81BA /* LICENSE in Resources */,
+				B5960ABE263835B8003F81BA /* CGXCustomStateTagsView.podspec in Resources */,
 				04E71AC52254C4C600563689 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A54DFD99A0CE5E0D4130FD3A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CGXCustomStateTagsView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04E71AB62254C4C600563689 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E91DCFD239FF11C00516A27 /* CGXCustomStateTagsView.m in Sources */,
 				04E71AC22254C4C600563689 /* ViewController.m in Sources */,
-				9E91DCFB239FF11C00516A27 /* UIButton+CGXCustomStateTagsEdgeInsets.m in Sources */,
 				04E71ACD2254C4C800563689 /* main.m in Sources */,
-				9E91DCFE239FF11C00516A27 /* CGXCustomStateTagsCell.m in Sources */,
-				9E91DCFA239FF11C00516A27 /* CGXCustomStateTagsModel.m in Sources */,
-				9E91DCFC239FF11C00516A27 /* CGXCustomStateTagsAlignFlowLayout.m in Sources */,
 				04E71ABF2254C4C600563689 /* AppDelegate.m in Sources */,
-				9E91DCF9239FF11C00516A27 /* UIView+CGXCustomStateTagsRounded.m in Sources */,
 				9E91DCE2239FE0AA00516A27 /* ViewTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,6 +359,7 @@
 		};
 		04E71AD12254C4C800563689 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64C478CB3AF197E6274641FF /* Pods-CGXCustomStateTagsView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -352,6 +378,7 @@
 		};
 		04E71AD22254C4C800563689 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ED1C7930301CFA79C297769 /* Pods-CGXCustomStateTagsView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
