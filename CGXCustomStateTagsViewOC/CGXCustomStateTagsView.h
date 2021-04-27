@@ -8,8 +8,6 @@
 /*
 支持pod下载：搜索：CGXCustomStateTagsView
 版本： 1.1.2
- 
- 
  功能：
    状态按钮功能封装   (例如：订单状态等固定式按钮使用，不可滑动)
 */
@@ -23,7 +21,6 @@ typedef NS_ENUM(NSInteger, CGXCustomStateTagsViewAlignType){
      CGXCustomStateTagsViewAlignWithCenter,
      CGXCustomStateTagsViewAlignWithRight
 };
-
 /*
  点击按钮的事件
  */

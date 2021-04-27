@@ -16,8 +16,6 @@
 //屏幕高
 #define ScreenHeight  [UIScreen mainScreen].bounds.size.height
 
-
-
 ///NavBar高度
 #define kStatusBarHeight [[UIApplication sharedApplication] statusBarFrame].size.height
 #define kNavBarHeight 44.0f

@@ -13,8 +13,6 @@ s.frameworks = 'UIKit'
 
 #需要托管的源代码路径
 s.source_files  =  "CGXCustomStateTagsViewOC", "CGXCustomStateTagsViewOC/**/*.{h,m}"
-#开源库头文件
-s.public_header_files = "CGXCustomStateTagsViewOC/**/*.{h,m}"
 
 end
 
