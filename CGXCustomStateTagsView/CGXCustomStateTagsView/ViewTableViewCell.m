@@ -15,18 +15,15 @@
 {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
-        self.tagsView = [[CGXCustomStateTagsView alloc] init];
-        self.tagsView.frame = CGRectMake(0,0, CGRectGetWidth(self.contentView.frame), CGRectGetHeight(self.contentView.frame));
+        CGXCustomStateTagsViewAlignType cellType = arc4random() % 2 == 0 ? CGXCustomStateTagsViewAlignWithRight:CGXCustomStateTagsViewAlignWithLeft;
+        self.tagsView = [[CGXCustomStateTagsView alloc] initWithType:cellType];
         self.tagsView.backgroundColor = [UIColor whiteColor];
-        self.tagsView.cellType =  CGXCustomStateTagsViewAlignWithRight;
         self.tagsView.minimumLineSpacing = 10;
         self.tagsView.minimumInteritemSpacing = 10;
         [self.contentView addSubview:self.tagsView];
-        self.tagsView.selectStateBlock = ^(CGXCustomStateTagsModel * _Nonnull tagItem, NSInteger inter) {
+        self.tagsView.selectStateBlock = ^(CGXCustomStateTagsModel * _Nonnull tagItem) {
             NSLog(@"%@" , tagItem.tagsStr);
         };
-        
-
     }
     return self;
 }
@@ -37,15 +34,12 @@
 }
 - (void)updateModel
 {
-    NSMutableArray *tagsArr= [NSMutableArray arrayWithObjects:@"取消订单",@"待支付",@"评价", nil];
+    NSMutableArray *tagsArr= [NSMutableArray arrayWithObjects:@"取消订单",@"待支付",@"评价",@"全部订单",@"待发货",@"待评价", nil];
     NSMutableArray *tags11 = [NSMutableArray array];
     for (int i = 0; i<tagsArr.count; i++) {
         CGXCustomStateTagsModel *tagModel = [[ CGXCustomStateTagsModel alloc] init];
         tagModel.tagsStr = tagsArr[i];
-        //        tagModel.tagsWidth = 50;
-        //        tagModel.isAdaptiveWidth = NO;
         tagModel.stateType = TagsModelTypeTitle;
-        //        tagModel.tagsBgColor = APPRandomColor;
         tagModel.tagsBorderColor = APPRandomColor;
         tagModel.tagsBorderWidth = 1;
         tagModel.tagsCornerRadius = 8;

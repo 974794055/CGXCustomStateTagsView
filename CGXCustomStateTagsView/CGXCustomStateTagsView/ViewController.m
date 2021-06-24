@@ -52,71 +52,48 @@
     self.edgesForExtendedLayout = UIRectEdgeNone;
     self.navigationController.navigationBar.translucent = NO;
     
-    CGXCustomStateTagsView *tagsView1 = [[CGXCustomStateTagsView alloc] init];
+    CGXCustomStateTagsView *tagsView1 = [[CGXCustomStateTagsView alloc] initWithType:CGXCustomStateTagsViewAlignWithRight];
     tagsView1.frame = CGRectMake(0,0, CGRectGetWidth(self.view.frame), 80);
     tagsView1.backgroundColor = [UIColor whiteColor];
-    tagsView1.cellType =  CGXCustomStateTagsViewAlignWithCenter;
     tagsView1.minimumLineSpacing = 10;
     tagsView1.minimumInteritemSpacing = 10;
     [self.view addSubview:tagsView1];
-    tagsView1.selectStateBlock = ^(CGXCustomStateTagsModel * _Nonnull tagItem, NSInteger inter) {
+    tagsView1.selectStateBlock = ^(CGXCustomStateTagsModel * _Nonnull tagItem) {
         NSLog(@"%@" , tagItem.tagsStr);
     };
-    
     NSMutableArray *tags = [NSMutableArray array];
-    for (int i = 0; i<5; i++) {
+    for (int i = 0; i<5+5; i++) {
         CGXCustomStateTagsModel *tagModel = [[ CGXCustomStateTagsModel alloc] init];
-        tagModel.tagsStr = @"支付";
-        tagModel.tagsWidth = 40;
+        tagModel.tagsStr = [NSString stringWithFormat:@"支付%d",i];
+        tagModel.tagsWidth = 50;
         tagModel.tagsImg = @"guanqi";
         tagModel.isAdaptiveWidth = YES;
         tagModel.stateType = TagsModelTypeAll;
         tagModel.tagsBorderWidth = 1;
         tagModel.tagsCornerRadius = 8;
-        if (i == 0) {
-            tagModel.btnType = TagsModelBtnTypeTop;
-        } else if (i==1){
-            tagModel.btnType = TagsModelBtnTypeBottom;
-        } else if (i==2){
-            tagModel.tagsWidth = 70;
-            tagModel.btnType = TagsModelBtnTypeLeft;
-            tagModel.tagsMarginTop = 5;
-            tagModel.tagsMarginBottom = 5;
-        } else if (i==3){
-            tagModel.tagsWidth = 70;
-            tagModel.btnType = TagsModelBtnTypeRight;
-            tagModel.tagsMarginTop = 5;
-            tagModel.tagsMarginBottom = 5;
-        } else if (i==4){
-                   tagModel.tagsWidth = 40;
-                   tagModel.stateType = TagsModelTypeImage;
-                   tagModel.tagsMarginTop = 5;
-                   tagModel.tagsMarginBottom = 5;
-               }
+        tagModel.btnType = TagsModelBtnTypeTop;
+        tagModel.tagsSpace = 10;
+        tagModel.isAdaptiveWidth = NO;
         [tags addObject:tagModel];
     }
     [tagsView1 updateWithTagsArray:tags];
     
-    CGXCustomStateTagsView *tagsView2 = [[CGXCustomStateTagsView alloc] init];
+    CGXCustomStateTagsView *tagsView2 = [[CGXCustomStateTagsView alloc] initWithType:CGXCustomStateTagsViewAlignWithLeft];
     tagsView2.frame = CGRectMake(0,CGRectGetMaxY(tagsView1.frame)+10, CGRectGetWidth(self.view.frame), 50);
     tagsView2.backgroundColor = [UIColor whiteColor];
-    tagsView2.cellType =  CGXCustomStateTagsViewAlignWithRight;
     tagsView2.minimumLineSpacing = 10;
     tagsView2.minimumInteritemSpacing = 10;
     [self.view addSubview:tagsView2];
-    tagsView2.selectStateBlock = ^(CGXCustomStateTagsModel * _Nonnull tagItem, NSInteger inter) {
+    tagsView2.selectStateBlock = ^(CGXCustomStateTagsModel * _Nonnull tagItem) {
         NSLog(@"%@" , tagItem.tagsStr);
     };
-    
-    NSMutableArray *tagsArr= [NSMutableArray arrayWithObjects:@"启用",@"修改价格",@"库存", nil];
+
+    NSMutableArray *tagsArr= [NSMutableArray arrayWithObjects:@"启用",@"价格",@"库存",@"启用1",@"修改价格1",@"修价格1", nil];
     NSMutableArray *tags11 = [NSMutableArray array];
     for (int i = 0; i<tagsArr.count; i++) {
         CGXCustomStateTagsModel *tagModel = [[ CGXCustomStateTagsModel alloc] init];
         tagModel.tagsStr = tagsArr[i];
-        //        tagModel.tagsWidth = 50;
-        //        tagModel.isAdaptiveWidth = NO;
         tagModel.stateType = TagsModelTypeTitle;
-        //        tagModel.tagsBgColor = APPRandomColor;
         tagModel.tagsBorderColor = APPRandomColor;
         tagModel.tagsBorderWidth = 1;
         tagModel.tagsCornerRadius = 15;
@@ -125,15 +102,13 @@
     }
     [tagsView2 updateWithTagsArray:tags11];
     
-    
     [self initializeViews];
-    _tableView.frame = CGRectMake(0, CGRectGetMaxY(tagsView2.frame), self.view.frame.size.width, ScreenHeight-kTopHeight-kTabBarHeight-CGRectGetMaxY(tagsView2.frame));
 }
 
 
 - (void)initializeViews
 {
-    _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) style:UITableViewStyleGrouped];;
+    _tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStyleGrouped];;
     _tableView.backgroundColor = [UIColor clearColor];
     _tableView.showsHorizontalScrollIndicator = NO;
     _tableView.showsVerticalScrollIndicator = NO;
@@ -147,17 +122,19 @@
         _tableView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
     }
     [self.view addSubview:_tableView];
+    _tableView.frame = CGRectMake(0, 150 ,self.view.frame.size.width, ScreenHeight-kTopHeight-kTabBarHeight-150);
+    [_tableView reloadData];
 }
 - (Class)preferredCellClass {
     return ViewTableViewCell.class;
 }
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    return 1;
+    return 10;
 }
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 20;
+    return 1;
 }
 - (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section
 {

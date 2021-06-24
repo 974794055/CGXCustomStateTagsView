@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "CGXCustomStateTagsView"    #存储库名称
-s.version      = "1.1.2"      #版本号，与tag值一致
+s.version      = "1.1.3"      #版本号，与tag值一致
 s.summary      = "a CGXCustomStateTagsView 固定按钮封装"  #简介
 s.description  = "常用CGXCustomStateTagsView固定按钮控件状态封装，不可滑动"  #描述
 s.homepage     = "https://github.com/974794055/CGXCustomStateTagsView"      #项目主页，不是git地址
@@ -13,6 +13,7 @@ s.frameworks = 'UIKit'
 
 #需要托管的源代码路径
 s.source_files  =  "CGXCustomStateTagsViewOC", "CGXCustomStateTagsViewOC/**/*.{h,m}"
+s.public_header_files = "CGXCustomStateTagsViewOC/**/*.{h,m}"
 
 end
 
