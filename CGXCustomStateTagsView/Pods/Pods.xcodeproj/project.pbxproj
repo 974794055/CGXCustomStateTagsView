@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0073EFB4DEB3A84BB92017D73FF350E7 /* CGXCustomStateTagsView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E71C98461D14CA584F7661E65546BEC /* CGXCustomStateTagsView-dummy.m */; };
-		2EDFFD8D5B59CD596E962D5C85A19F2F /* CGXCustomStateTagsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E9D8899677E422418FCCED8A26424C1 /* CGXCustomStateTagsView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4308D2A3B73CDE5318827D0A36EE8B21 /* UIButton+CGXCustomStateTagsEdgeInsets.h in Headers */ = {isa = PBXBuildFile; fileRef = E0C6A020BF6E09D3B47C62C0C832A24C /* UIButton+CGXCustomStateTagsEdgeInsets.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6CDFCFCF7E856F6BF76C0F18E2F34D91 /* CGXCustomStateTagsLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 165D6CE2F6879D245BF90C346664BB6A /* CGXCustomStateTagsLayout.m */; };
-		9E12AC139B033B1F622400375A23FE65 /* CGXCustomStateTagsCell.h in Headers */ = {isa = PBXBuildFile; fileRef = B72570A36D488B3EAF83BACEB9521C14 /* CGXCustomStateTagsCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B9C9B9ACF865CFC97D69569AC9503C83 /* UIButton+CGXCustomStateTagsEdgeInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 72351144B6B7F8662F55E7934341040E /* UIButton+CGXCustomStateTagsEdgeInsets.m */; };
+		1FA39AC06D8F68ACF55B66685EA5B8B1 /* CGXCustomStateTagsPopView.h in Headers */ = {isa = PBXBuildFile; fileRef = C986ADA363F6D2FC3B60345388EA5B9A /* CGXCustomStateTagsPopView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2FB32EE9660D47AC60516C30C679E796 /* CGXCustomStateTagsView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B94EFF797096958A7DB88C2094C5971 /* CGXCustomStateTagsView-dummy.m */; };
+		3886264B208F385C94EEA0BE8A7B8386 /* CGXCustomStateTagsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DCE5F0B0E5C5C2E1FCDE03507111A01 /* CGXCustomStateTagsView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4266731484FE68945AF62A02521AD61D /* UIButton+CGXCustomStateTagsEdgeInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA2BE30C12B88F06B2F9946217D7224 /* UIButton+CGXCustomStateTagsEdgeInsets.m */; };
+		4F75D63C1E0EF87F941E728CBBF000B0 /* UIButton+CGXCustomStateTagsEdgeInsets.h in Headers */ = {isa = PBXBuildFile; fileRef = B1B770B857738BFF36DB69E94E0374D3 /* UIButton+CGXCustomStateTagsEdgeInsets.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8C62B6345977F70ACA9C2A149982864E /* CGXCustomStateTagsLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 21D05C6F9371B899DDFE8FDCB9D079A7 /* CGXCustomStateTagsLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9C3ED9964266D8537291997B90398EB9 /* CGXCustomStateTagsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37AC0641030A4C47BAC138E5310BC9CD /* CGXCustomStateTagsView.m */; };
+		9CC470583BE0EE43418937DB53E900B5 /* CGXCustomStateTagsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBB35E87856AB573C7ACFD741FE81D9 /* CGXCustomStateTagsCell.m */; };
+		A4EC0D238C118ED9EADBCA686838A206 /* CGXCustomStateTagsModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 12E5F31BA068E0CA29CD50254867FFDB /* CGXCustomStateTagsModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ACD71048C71C4269A2691546358EAED4 /* CGXCustomStateTagsPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 596E6A02C3F1051A362E2915DD82DE17 /* CGXCustomStateTagsPopView.m */; };
 		B9F7CC758D79DC3A83954F04BFD42BA0 /* Pods-CGXCustomStateTagsView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6823A07622336461F9A97B807AAA88 /* Pods-CGXCustomStateTagsView-dummy.m */; };
-		C51CDD086FB75EAE85661A0F29A5EF2F /* CGXCustomStateTagsModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 426FECCC6AC66FF3809D2612579C78D2 /* CGXCustomStateTagsModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C5CBD8089BA08F2E459CB10A4217074E /* CGXCustomStateTagsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 426BD493372B3B61E36A1D38FC5E9EC5 /* CGXCustomStateTagsView.m */; };
-		E0A5C38F26835C9600493D70 /* CGXCustomStateTagsPopView.h in Headers */ = {isa = PBXBuildFile; fileRef = E0A5C38D26835C9600493D70 /* CGXCustomStateTagsPopView.h */; };
-		E0A5C39026835C9600493D70 /* CGXCustomStateTagsPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A5C38E26835C9600493D70 /* CGXCustomStateTagsPopView.m */; };
-		EB507A1A4D1A9BBEC805E726684D5004 /* CGXCustomStateTagsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF1681C5F6725F08DBF1B0D2EABCEE3 /* CGXCustomStateTagsModel.m */; };
-		EFB13FE2CB70973613A32D5DC5A34209 /* CGXCustomStateTagsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C64E57E193644C4FF124BCFEBDF245C /* CGXCustomStateTagsCell.m */; };
-		FB08AF0DB60BBAB1257CFBEE246E40BC /* CGXCustomStateTagsLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 66CDCDEC34E751616EA3A8819229CD1B /* CGXCustomStateTagsLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CB1CCE129E2381B450B3E2B578899CF0 /* CGXCustomStateTagsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FA6273C11ACAE8AB6AAAD33C5C0031 /* CGXCustomStateTagsModel.m */; };
+		D005BC41823AC5E2F81223E9D709E16F /* CGXCustomStateTagsLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7CD32E1722AB5583EE94440B08A2AB /* CGXCustomStateTagsLayout.m */; };
+		F2BDF40B4FE99D6B6E08783A5C8BE4E6 /* CGXCustomStateTagsCell.h in Headers */ = {isa = PBXBuildFile; fileRef = DB42E4F33D20D7F98BBD7F623BFB3AF8 /* CGXCustomStateTagsCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E69EABC49112C88E012D5D6E45308118 /* PBXContainerItemProxy */ = {
+		8C8F74EFAC80877DA86583382FBBFC6D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -34,37 +34,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		165D6CE2F6879D245BF90C346664BB6A /* CGXCustomStateTagsLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CGXCustomStateTagsLayout.m; path = CGXCustomStateTagsViewOC/CGXCustomStateTagsLayout.m; sourceTree = "<group>"; };
-		1E71C98461D14CA584F7661E65546BEC /* CGXCustomStateTagsView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CGXCustomStateTagsView-dummy.m"; sourceTree = "<group>"; };
-		1FB9C4BC245968366630A9A9E93AAB58 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		2C5C7042A70E6AD69033C201D24257DE /* CGXCustomStateTagsView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CGXCustomStateTagsView.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		3E9D8899677E422418FCCED8A26424C1 /* CGXCustomStateTagsView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CGXCustomStateTagsView.h; path = CGXCustomStateTagsViewOC/CGXCustomStateTagsView.h; sourceTree = "<group>"; };
-		426BD493372B3B61E36A1D38FC5E9EC5 /* CGXCustomStateTagsView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CGXCustomStateTagsView.m; path = CGXCustomStateTagsViewOC/CGXCustomStateTagsView.m; sourceTree = "<group>"; };
-		426FECCC6AC66FF3809D2612579C78D2 /* CGXCustomStateTagsModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CGXCustomStateTagsModel.h; path = CGXCustomStateTagsViewOC/CGXCustomStateTagsModel.h; sourceTree = "<group>"; };
+		06C866180F671C92BEA109D612F7B104 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		12E5F31BA068E0CA29CD50254867FFDB /* CGXCustomStateTagsModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CGXCustomStateTagsModel.h; path = CGXCustomStateTagsViewOC/CGXCustomStateTagsModel.h; sourceTree = "<group>"; };
+		143C90C534525C45A37F511A31A60221 /* CGXCustomStateTagsView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CGXCustomStateTagsView.release.xcconfig; sourceTree = "<group>"; };
+		21D05C6F9371B899DDFE8FDCB9D079A7 /* CGXCustomStateTagsLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CGXCustomStateTagsLayout.h; path = CGXCustomStateTagsViewOC/CGXCustomStateTagsLayout.h; sourceTree = "<group>"; };
+		37AC0641030A4C47BAC138E5310BC9CD /* CGXCustomStateTagsView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CGXCustomStateTagsView.m; path = CGXCustomStateTagsViewOC/CGXCustomStateTagsView.m; sourceTree = "<group>"; };
+		3CA2BE30C12B88F06B2F9946217D7224 /* UIButton+CGXCustomStateTagsEdgeInsets.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+CGXCustomStateTagsEdgeInsets.m"; path = "CGXCustomStateTagsViewOC/UIButton+CGXCustomStateTagsEdgeInsets.m"; sourceTree = "<group>"; };
 		4AA729DFE89922DFB09C33AD5514FBB7 /* Pods-CGXCustomStateTagsView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CGXCustomStateTagsView.debug.xcconfig"; sourceTree = "<group>"; };
-		4C64E57E193644C4FF124BCFEBDF245C /* CGXCustomStateTagsCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CGXCustomStateTagsCell.m; path = CGXCustomStateTagsViewOC/CGXCustomStateTagsCell.m; sourceTree = "<group>"; };
 		504F32FDC053D153315004215B982DB4 /* Pods-CGXCustomStateTagsView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CGXCustomStateTagsView-acknowledgements.plist"; sourceTree = "<group>"; };
-		66CDCDEC34E751616EA3A8819229CD1B /* CGXCustomStateTagsLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CGXCustomStateTagsLayout.h; path = CGXCustomStateTagsViewOC/CGXCustomStateTagsLayout.h; sourceTree = "<group>"; };
+		596E6A02C3F1051A362E2915DD82DE17 /* CGXCustomStateTagsPopView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CGXCustomStateTagsPopView.m; path = CGXCustomStateTagsViewOC/CGXCustomStateTagsPopView.m; sourceTree = "<group>"; };
+		5DFA1F0BC301E8CE29ECBA11711D89D4 /* CGXCustomStateTagsView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CGXCustomStateTagsView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		69036953DB98AD7FDF53156FB61EFD2B /* CGXCustomStateTagsView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CGXCustomStateTagsView-prefix.pch"; sourceTree = "<group>"; };
 		6F1E2977FD2A7D62272E541407ACE71B /* Pods-CGXCustomStateTagsView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CGXCustomStateTagsView-acknowledgements.markdown"; sourceTree = "<group>"; };
-		72351144B6B7F8662F55E7934341040E /* UIButton+CGXCustomStateTagsEdgeInsets.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+CGXCustomStateTagsEdgeInsets.m"; path = "CGXCustomStateTagsViewOC/UIButton+CGXCustomStateTagsEdgeInsets.m"; sourceTree = "<group>"; };
-		72A8F3923BB393E6B4824B1149F6CF8E /* CGXCustomStateTagsView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CGXCustomStateTagsView.debug.xcconfig; sourceTree = "<group>"; };
-		826CB2C1390C3DC7A9DC2414A68C9816 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9EF1681C5F6725F08DBF1B0D2EABCEE3 /* CGXCustomStateTagsModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CGXCustomStateTagsModel.m; path = CGXCustomStateTagsViewOC/CGXCustomStateTagsModel.m; sourceTree = "<group>"; };
-		9F22DD135CD7DD96491924E9CFF63106 /* libPods-CGXCustomStateTagsView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CGXCustomStateTagsView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B72570A36D488B3EAF83BACEB9521C14 /* CGXCustomStateTagsCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CGXCustomStateTagsCell.h; path = CGXCustomStateTagsViewOC/CGXCustomStateTagsCell.h; sourceTree = "<group>"; };
-		BE3FBCC139C981037DDECB6E36AEF646 /* CGXCustomStateTagsView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CGXCustomStateTagsView-prefix.pch"; sourceTree = "<group>"; };
-		D3A3309D71C39CC63C778F2F8C94CBF8 /* CGXCustomStateTagsView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CGXCustomStateTagsView.release.xcconfig; sourceTree = "<group>"; };
-		E0A5C38D26835C9600493D70 /* CGXCustomStateTagsPopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CGXCustomStateTagsPopView.h; path = CGXCustomStateTagsViewOC/CGXCustomStateTagsPopView.h; sourceTree = "<group>"; };
-		E0A5C38E26835C9600493D70 /* CGXCustomStateTagsPopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CGXCustomStateTagsPopView.m; path = CGXCustomStateTagsViewOC/CGXCustomStateTagsPopView.m; sourceTree = "<group>"; };
-		E0C6A020BF6E09D3B47C62C0C832A24C /* UIButton+CGXCustomStateTagsEdgeInsets.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+CGXCustomStateTagsEdgeInsets.h"; path = "CGXCustomStateTagsViewOC/UIButton+CGXCustomStateTagsEdgeInsets.h"; sourceTree = "<group>"; };
+		7DCE5F0B0E5C5C2E1FCDE03507111A01 /* CGXCustomStateTagsView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CGXCustomStateTagsView.h; path = CGXCustomStateTagsViewOC/CGXCustomStateTagsView.h; sourceTree = "<group>"; };
+		8B94EFF797096958A7DB88C2094C5971 /* CGXCustomStateTagsView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CGXCustomStateTagsView-dummy.m"; sourceTree = "<group>"; };
+		8F7CD32E1722AB5583EE94440B08A2AB /* CGXCustomStateTagsLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CGXCustomStateTagsLayout.m; path = CGXCustomStateTagsViewOC/CGXCustomStateTagsLayout.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F22DD135CD7DD96491924E9CFF63106 /* libPods-CGXCustomStateTagsView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CGXCustomStateTagsView.a"; path = "libPods-CGXCustomStateTagsView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1B770B857738BFF36DB69E94E0374D3 /* UIButton+CGXCustomStateTagsEdgeInsets.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+CGXCustomStateTagsEdgeInsets.h"; path = "CGXCustomStateTagsViewOC/UIButton+CGXCustomStateTagsEdgeInsets.h"; sourceTree = "<group>"; };
+		C0FA6273C11ACAE8AB6AAAD33C5C0031 /* CGXCustomStateTagsModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CGXCustomStateTagsModel.m; path = CGXCustomStateTagsViewOC/CGXCustomStateTagsModel.m; sourceTree = "<group>"; };
+		C986ADA363F6D2FC3B60345388EA5B9A /* CGXCustomStateTagsPopView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CGXCustomStateTagsPopView.h; path = CGXCustomStateTagsViewOC/CGXCustomStateTagsPopView.h; sourceTree = "<group>"; };
+		DB42E4F33D20D7F98BBD7F623BFB3AF8 /* CGXCustomStateTagsCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CGXCustomStateTagsCell.h; path = CGXCustomStateTagsViewOC/CGXCustomStateTagsCell.h; sourceTree = "<group>"; };
+		E368C0D87DE43CEF52BA620317379E9B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		E7B6811AC624B6BCCB6F731DDAE42C9E /* Pods-CGXCustomStateTagsView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CGXCustomStateTagsView.release.xcconfig"; sourceTree = "<group>"; };
-		F962E3D099C3C6DB247C3A33F090BBA9 /* libCGXCustomStateTagsView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCGXCustomStateTagsView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2F34E3DD4947BAA6E178C3194B36638 /* CGXCustomStateTagsView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CGXCustomStateTagsView.debug.xcconfig; sourceTree = "<group>"; };
+		F962E3D099C3C6DB247C3A33F090BBA9 /* libCGXCustomStateTagsView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCGXCustomStateTagsView.a; path = libCGXCustomStateTagsView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCBB35E87856AB573C7ACFD741FE81D9 /* CGXCustomStateTagsCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CGXCustomStateTagsCell.m; path = CGXCustomStateTagsViewOC/CGXCustomStateTagsCell.m; sourceTree = "<group>"; };
 		FF6823A07622336461F9A97B807AAA88 /* Pods-CGXCustomStateTagsView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CGXCustomStateTagsView-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8525A5A1A777520E80496A34B071E371 /* Frameworks */ = {
+		3EA118E6307A7DAF510F7DCDF7A05D29 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -81,24 +81,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D7CE10DFFCD472CBCD2FF2483E143D9 /* Support Files */ = {
+		294C91B76E95168C04E473309C15E3E4 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				1E71C98461D14CA584F7661E65546BEC /* CGXCustomStateTagsView-dummy.m */,
-				BE3FBCC139C981037DDECB6E36AEF646 /* CGXCustomStateTagsView-prefix.pch */,
-				72A8F3923BB393E6B4824B1149F6CF8E /* CGXCustomStateTagsView.debug.xcconfig */,
-				D3A3309D71C39CC63C778F2F8C94CBF8 /* CGXCustomStateTagsView.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "CGXCustomStateTagsView/Pods/Target Support Files/CGXCustomStateTagsView";
-			sourceTree = "<group>";
-		};
-		159FC1CCC0641BBEF105DC29229E425C /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				2C5C7042A70E6AD69033C201D24257DE /* CGXCustomStateTagsView.podspec */,
-				1FB9C4BC245968366630A9A9E93AAB58 /* LICENSE */,
-				826CB2C1390C3DC7A9DC2414A68C9816 /* README.md */,
+				5DFA1F0BC301E8CE29ECBA11711D89D4 /* CGXCustomStateTagsView.podspec */,
+				E368C0D87DE43CEF52BA620317379E9B /* LICENSE */,
+				06C866180F671C92BEA109D612F7B104 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -120,41 +108,53 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		795ADF89B710C8DBFACDEC5A5AD6AFC0 /* Development Pods */ = {
+		5D7833B1C32CF67D6036FE52690DB710 /* CGXCustomStateTagsView */ = {
 			isa = PBXGroup;
 			children = (
-				945CFFCFE61CA66146B5AF09D19897AB /* CGXCustomStateTagsView */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		945CFFCFE61CA66146B5AF09D19897AB /* CGXCustomStateTagsView */ = {
-			isa = PBXGroup;
-			children = (
-				66CDCDEC34E751616EA3A8819229CD1B /* CGXCustomStateTagsLayout.h */,
-				165D6CE2F6879D245BF90C346664BB6A /* CGXCustomStateTagsLayout.m */,
-				B72570A36D488B3EAF83BACEB9521C14 /* CGXCustomStateTagsCell.h */,
-				4C64E57E193644C4FF124BCFEBDF245C /* CGXCustomStateTagsCell.m */,
-				426FECCC6AC66FF3809D2612579C78D2 /* CGXCustomStateTagsModel.h */,
-				9EF1681C5F6725F08DBF1B0D2EABCEE3 /* CGXCustomStateTagsModel.m */,
-				3E9D8899677E422418FCCED8A26424C1 /* CGXCustomStateTagsView.h */,
-				426BD493372B3B61E36A1D38FC5E9EC5 /* CGXCustomStateTagsView.m */,
-				E0A5C38D26835C9600493D70 /* CGXCustomStateTagsPopView.h */,
-				E0A5C38E26835C9600493D70 /* CGXCustomStateTagsPopView.m */,
-				E0C6A020BF6E09D3B47C62C0C832A24C /* UIButton+CGXCustomStateTagsEdgeInsets.h */,
-				72351144B6B7F8662F55E7934341040E /* UIButton+CGXCustomStateTagsEdgeInsets.m */,
-				159FC1CCC0641BBEF105DC29229E425C /* Pod */,
-				0D7CE10DFFCD472CBCD2FF2483E143D9 /* Support Files */,
+				DB42E4F33D20D7F98BBD7F623BFB3AF8 /* CGXCustomStateTagsCell.h */,
+				FCBB35E87856AB573C7ACFD741FE81D9 /* CGXCustomStateTagsCell.m */,
+				21D05C6F9371B899DDFE8FDCB9D079A7 /* CGXCustomStateTagsLayout.h */,
+				8F7CD32E1722AB5583EE94440B08A2AB /* CGXCustomStateTagsLayout.m */,
+				12E5F31BA068E0CA29CD50254867FFDB /* CGXCustomStateTagsModel.h */,
+				C0FA6273C11ACAE8AB6AAAD33C5C0031 /* CGXCustomStateTagsModel.m */,
+				C986ADA363F6D2FC3B60345388EA5B9A /* CGXCustomStateTagsPopView.h */,
+				596E6A02C3F1051A362E2915DD82DE17 /* CGXCustomStateTagsPopView.m */,
+				7DCE5F0B0E5C5C2E1FCDE03507111A01 /* CGXCustomStateTagsView.h */,
+				37AC0641030A4C47BAC138E5310BC9CD /* CGXCustomStateTagsView.m */,
+				B1B770B857738BFF36DB69E94E0374D3 /* UIButton+CGXCustomStateTagsEdgeInsets.h */,
+				3CA2BE30C12B88F06B2F9946217D7224 /* UIButton+CGXCustomStateTagsEdgeInsets.m */,
+				294C91B76E95168C04E473309C15E3E4 /* Pod */,
+				6DF0ABC231EFB2A2156AE3B726326B1E /* Support Files */,
 			);
 			name = CGXCustomStateTagsView;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		6DF0ABC231EFB2A2156AE3B726326B1E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B94EFF797096958A7DB88C2094C5971 /* CGXCustomStateTagsView-dummy.m */,
+				69036953DB98AD7FDF53156FB61EFD2B /* CGXCustomStateTagsView-prefix.pch */,
+				F2F34E3DD4947BAA6E178C3194B36638 /* CGXCustomStateTagsView.debug.xcconfig */,
+				143C90C534525C45A37F511A31A60221 /* CGXCustomStateTagsView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "CGXCustomStateTagsView/Pods/Target Support Files/CGXCustomStateTagsView";
+			sourceTree = "<group>";
+		};
+		776524C29ADCB06CDB7D8FB2D99DB4E2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D7833B1C32CF67D6036FE52690DB710 /* CGXCustomStateTagsView */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				795ADF89B710C8DBFACDEC5A5AD6AFC0 /* Development Pods */,
+				776524C29ADCB06CDB7D8FB2D99DB4E2 /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
 				37DC0DC588D8C9BD5E97F01F51EF9CAA /* Products */,
 				3CC19AC0E70447265116CD0E00AAB461 /* Targets Support Files */,
@@ -184,16 +184,16 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		A23C6C74897743DB03572FCB348E35B1 /* Headers */ = {
+		33D07FAE842F37A58ED4788669AB97DA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB08AF0DB60BBAB1257CFBEE246E40BC /* CGXCustomStateTagsLayout.h in Headers */,
-				9E12AC139B033B1F622400375A23FE65 /* CGXCustomStateTagsCell.h in Headers */,
-				E0A5C38F26835C9600493D70 /* CGXCustomStateTagsPopView.h in Headers */,
-				C51CDD086FB75EAE85661A0F29A5EF2F /* CGXCustomStateTagsModel.h in Headers */,
-				2EDFFD8D5B59CD596E962D5C85A19F2F /* CGXCustomStateTagsView.h in Headers */,
-				4308D2A3B73CDE5318827D0A36EE8B21 /* UIButton+CGXCustomStateTagsEdgeInsets.h in Headers */,
+				F2BDF40B4FE99D6B6E08783A5C8BE4E6 /* CGXCustomStateTagsCell.h in Headers */,
+				8C62B6345977F70ACA9C2A149982864E /* CGXCustomStateTagsLayout.h in Headers */,
+				A4EC0D238C118ED9EADBCA686838A206 /* CGXCustomStateTagsModel.h in Headers */,
+				1FA39AC06D8F68ACF55B66685EA5B8B1 /* CGXCustomStateTagsPopView.h in Headers */,
+				3886264B208F385C94EEA0BE8A7B8386 /* CGXCustomStateTagsView.h in Headers */,
+				4F75D63C1E0EF87F941E728CBBF000B0 /* UIButton+CGXCustomStateTagsEdgeInsets.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,11 +209,11 @@
 /* Begin PBXNativeTarget section */
 		6F50782BFA33AB8150DE467F723895EB /* CGXCustomStateTagsView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 771815DAC2677C8B1E6E4DB153F14ACA /* Build configuration list for PBXNativeTarget "CGXCustomStateTagsView" */;
+			buildConfigurationList = 973CA1C2F5440322D419C7500578251A /* Build configuration list for PBXNativeTarget "CGXCustomStateTagsView" */;
 			buildPhases = (
-				A23C6C74897743DB03572FCB348E35B1 /* Headers */,
-				3B382B3D78BA8E52A929D72DAD87EBE4 /* Sources */,
-				8525A5A1A777520E80496A34B071E371 /* Frameworks */,
+				33D07FAE842F37A58ED4788669AB97DA /* Headers */,
+				629A8B84D12117661F2E215CD33ADC5E /* Sources */,
+				3EA118E6307A7DAF510F7DCDF7A05D29 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,7 +235,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				F287DCA50A981F6B6FB0579241BF19B2 /* PBXTargetDependency */,
+				06A6757A2AB797FFDA76A303160B35FF /* PBXTargetDependency */,
 			);
 			name = "Pods-CGXCustomStateTagsView";
 			productName = "Pods-CGXCustomStateTagsView";
@@ -279,35 +279,57 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3B382B3D78BA8E52A929D72DAD87EBE4 /* Sources */ = {
+		629A8B84D12117661F2E215CD33ADC5E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CDFCFCF7E856F6BF76C0F18E2F34D91 /* CGXCustomStateTagsLayout.m in Sources */,
-				EFB13FE2CB70973613A32D5DC5A34209 /* CGXCustomStateTagsCell.m in Sources */,
-				EB507A1A4D1A9BBEC805E726684D5004 /* CGXCustomStateTagsModel.m in Sources */,
-				E0A5C39026835C9600493D70 /* CGXCustomStateTagsPopView.m in Sources */,
-				0073EFB4DEB3A84BB92017D73FF350E7 /* CGXCustomStateTagsView-dummy.m in Sources */,
-				C5CBD8089BA08F2E459CB10A4217074E /* CGXCustomStateTagsView.m in Sources */,
-				B9C9B9ACF865CFC97D69569AC9503C83 /* UIButton+CGXCustomStateTagsEdgeInsets.m in Sources */,
+				9CC470583BE0EE43418937DB53E900B5 /* CGXCustomStateTagsCell.m in Sources */,
+				D005BC41823AC5E2F81223E9D709E16F /* CGXCustomStateTagsLayout.m in Sources */,
+				CB1CCE129E2381B450B3E2B578899CF0 /* CGXCustomStateTagsModel.m in Sources */,
+				ACD71048C71C4269A2691546358EAED4 /* CGXCustomStateTagsPopView.m in Sources */,
+				2FB32EE9660D47AC60516C30C679E796 /* CGXCustomStateTagsView-dummy.m in Sources */,
+				9C3ED9964266D8537291997B90398EB9 /* CGXCustomStateTagsView.m in Sources */,
+				4266731484FE68945AF62A02521AD61D /* UIButton+CGXCustomStateTagsEdgeInsets.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F287DCA50A981F6B6FB0579241BF19B2 /* PBXTargetDependency */ = {
+		06A6757A2AB797FFDA76A303160B35FF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CGXCustomStateTagsView;
 			target = 6F50782BFA33AB8150DE467F723895EB /* CGXCustomStateTagsView */;
-			targetProxy = E69EABC49112C88E012D5D6E45308118 /* PBXContainerItemProxy */;
+			targetProxy = 8C8F74EFAC80877DA86583382FBBFC6D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		6848F4F6FD5BC12F933E9FEF49999CBD /* Release */ = {
+		0DE6654EA81DFECD5A77E2CCFDEC1E59 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3A3309D71C39CC63C778F2F8C94CBF8 /* CGXCustomStateTagsView.release.xcconfig */;
+			baseConfigurationReference = F2F34E3DD4947BAA6E178C3194B36638 /* CGXCustomStateTagsView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CGXCustomStateTagsView/CGXCustomStateTagsView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CGXCustomStateTagsView;
+				PRODUCT_NAME = CGXCustomStateTagsView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1366AAF2293EFBF29733345D0919F2C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 143C90C534525C45A37F511A31A60221 /* CGXCustomStateTagsView.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -389,28 +411,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
-		};
-		770E6AA52D70F4C247585010632D0FC8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72A8F3923BB393E6B4824B1149F6CF8E /* CGXCustomStateTagsView.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/CGXCustomStateTagsView/CGXCustomStateTagsView-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = CGXCustomStateTagsView;
-				PRODUCT_NAME = CGXCustomStateTagsView;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
 		};
 		792D6FBCEBC4C4647F1E340529528FAD /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -531,11 +531,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		771815DAC2677C8B1E6E4DB153F14ACA /* Build configuration list for PBXNativeTarget "CGXCustomStateTagsView" */ = {
+		973CA1C2F5440322D419C7500578251A /* Build configuration list for PBXNativeTarget "CGXCustomStateTagsView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				770E6AA52D70F4C247585010632D0FC8 /* Debug */,
-				6848F4F6FD5BC12F933E9FEF49999CBD /* Release */,
+				0DE6654EA81DFECD5A77E2CCFDEC1E59 /* Debug */,
+				1366AAF2293EFBF29733345D0919F2C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

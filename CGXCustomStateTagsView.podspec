@@ -12,8 +12,8 @@ s.requires_arc = true #是否支持ARC
 s.frameworks = 'UIKit'
 
 #需要托管的源代码路径
-s.source_files  =  "CGXCustomStateTagsViewOC", "CGXCustomStateTagsViewOC/**/*.{h,m}"
-s.public_header_files = "CGXCustomStateTagsViewOC/**/*.{h,m}"
+s.source_files  = "CGXCustomStateTagsViewOC/**/*.{h,m}"
+s.public_header_files = "CGXCustomStateTagsViewOC/**/*.{h}"
 
 
 end

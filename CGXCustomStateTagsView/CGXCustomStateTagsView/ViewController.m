@@ -11,7 +11,6 @@
 #import "CGXCustomStateTagsView.h"
 
 //屏幕
-
 #define ScreenWidth   [UIScreen mainScreen].bounds.size.width
 //屏幕高
 #define ScreenHeight  [UIScreen mainScreen].bounds.size.height
