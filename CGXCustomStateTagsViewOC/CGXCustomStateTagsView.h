@@ -48,9 +48,7 @@ typedef void (^ CGXCustomStateTagsViewSelectStateBlock)(CGXCustomStateTagsModel 
 @property (nonatomic, strong) UIColor *indicatorborderColor;
 @property (nonatomic, assign) CGFloat indicatorborderWidth;
 
-/**
-   初始化方式
-*/
+/**初始化方式*/
 - (instancetype)initWithType:(CGXCustomStateTagsViewAlignType)type NS_DESIGNATED_INITIALIZER;
 - (instancetype)init NS_UNAVAILABLE;
 - (instancetype)initWithFrame:(CGRect)frame NS_UNAVAILABLE;

@@ -105,7 +105,6 @@
     [self initializeViews];
 }
 
-
 - (void)initializeViews
 {
     _tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStyleGrouped];;
